@@ -1,0 +1,39 @@
+2014-03-24 Christophe Monard  <contact@archriss.com>
+        * Code refactor for v6 TYPO3
+        * Change private function to protected
+	* Add Migration code
+
+2013-06-04 Christophe Monard  <contact@archriss.com>
+	* Change deprecated function
+
+2013-06-03 Christophe Monard  <contact@archriss.com>
+	* Sonar test corrections
+
+2013-05-30 Christophe Monard  <cmonard@archriss.com>
+	* Bugfix when using non WSDL connexion
+	* Bugfix when trying to call WS function (problem getting protected member)
+	* Small optimisation of code and options inclusion
+
+2013-03-21 Christophe Monard  <cmonard@archriss.com>
+	* Fatal error correction (sorry)
+	* Code correction for Sonar tests (please check protected members and functions)
+
+2013-01-30 Christophe Monard  <cmonard@archriss.com>
+	* Change state to Stable :)
+	* Code cleaning
+	* Dependancy changing
+	* Name change of hook in the getValue function (duplicate with hook in the init function)
+
+2012-02-22 Christophe Monard  <cmonard@archriss.com>
+	* Error fix
+
+2011-12-16 Christophe Monard  <cmonard@archriss.com>
+	* Change install params for SOAP version and CACHE mode on old version may not work
+	* Rewritte some label to be cleaner
+
+2011-12-14 Christophe Monard  <cmonard@archriss.com>
+	* Add http login and password options
+	* Bug correction, with some server configuration blank option aren't allowed, if blank NULL is supplied
+
+2011-12-08 Christophe Monard  <cmonard@archriss.com>
+	* No documentation needed, simply read the first comment of the class to understand how it work ;)

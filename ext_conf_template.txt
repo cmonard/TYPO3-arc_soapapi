@@ -1,0 +1,56 @@
+  # cat=basic; type=options[SOAP_1_1=1,SOAP_1_2=2]; label=Wich soap version should be used : SOAP_1_1 / SOAP_1_2
+SOAP=2
+
+  # cat=basic; type=boolean; label=SSL : Does the SOAP connection sould be secured (https)
+SSL=0
+
+  # cat=basic; type=text; label=Host name to connect : eg. localhost, mydomain.com, 192.168.1.1, etc.
+HOST=
+
+  # cat=basic; type=int; label=Soap port : If port is not 80, you shoult set it here : eg. 3024, 44300
+PORT=
+
+  # cat=basic; type=text; label=Path to the script : eg. dir1/dir2/script.asmx
+SCHEME=
+
+  # cat=basic; type=boolean; label=WSDL : Suffix url with ?WSDL ?
+WSDL=1
+
+  # cat=basic; type=text; label=HTTP login
+LOGIN=
+
+  # cat=basic; type=text; label=HTTP password
+PASSWORD=
+
+  # cat=basic; type=text; label=Proxy host option
+PROXYHOST=
+
+  # cat=basic; type=int; label=Proxy port option
+PROXYPORT=
+
+  # cat=basic; type=text; label=Proxy username option
+PROXYUSERNAME=
+
+  # cat=basic; type=text; label=Proxy password option
+PROXYPASSWORD=
+
+  # cat=basic; type=boolean; label=Compression : Does the compression should be activated?
+COMPRESSION=0
+
+  # cat=basic; type=boolean; label=Exception : Does the exception should be activated?
+EXCEPTIONS=1
+
+  # cat=basic; type=boolean; label=Trace : Does the trace should be activated? (if yes, last request and last response will be stored too in the class var lastRR)
+TRACE=0
+
+  # cat=basic; type=options[WSDL_CACHE_NONE=0,WSDL_CACHE_DISK=1,WSDL_CACHE_MEMORY=2,WSDL_CACHE_BOTH=3]; label=Cache : Wich soap cache should be used : WSDL_CACHE_NONE / WSDL_CACHE_DISK / WSDL_CACHE_MEMORY / WSDL_CACHE_BOTH
+CACHE=3
+
+  # cat=advanced; type=boolean; label=Should we list soap function in the listFunc class var?
+SHOWFUNC=0
+
+  # cat=advanced; type=text; label=Where goes the error mail?
+ERROR_MAIL=
+
+  # cat=advanced; type=text; label=Bind copie of the error mail?
+BIND_MAIL=
